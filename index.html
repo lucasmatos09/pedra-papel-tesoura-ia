@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedra, Papel ou Tesoura</title>
+  <link rel="stylesheet" href="Style.css" />
+  
+</head>
+<body>
+
+  <!-- Tela de carregamento -->
+  <div id="loading-screen">
+    <div class="loader"></div>
+    <p>Carregando o jogo...</p>
+  </div>
+
+  <!-- Conteúdo do jogo -->
+  <div class="container" id="game-content" style="display: none;">
+    <h1>🧠 Pedra, Papel ou Tesoura 🎮</h1>
+
+    <div class="buttons">
+      <button onclick="play(0)" class="choice"><img src="img/axe_925140.png" alt="Pedra" /><span>Pedra</span></button>
+      <button onclick="play(1)" class="choice"><img src="img/files_4229806.png" alt="Papel" /><span>Papel</span></button>
+      <button onclick="play(2)" class="choice"><img src="img/bracelet_11063785.png" alt="Tesoura" /><span>Tesoura</span></button>
+    </div>
+
+    <div class="results">
+      <p id="playerChoice"></p>
+      <p id="computerChoice"></p>
+      <p id="roundResult"></p>
+    </div>
+
+    <div class="scoreboard">
+      <h2>Placar</h2>
+      <p>Vitórias: <span id="wins">0</span></p>
+      <p>Derrotas: <span id="losses">0</span></p>
+      <p>Empates: <span id="draws">0</span></p>
+    </div>
+
+    <button onclick="resetGame()" class="exit">🔄 Reiniciar</button>
+  </div>
+
+
+  <script src="Script.js"></script>
+</body>
+</html>
