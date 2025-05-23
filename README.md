@@ -20,9 +20,6 @@ CSS3
 
 JavaScript (Vanilla)
 
-📁 Estrutura do Projeto
-bash
-Copiar código
 📂 pedra-papel-tesoura/
 ├── index.html           # Estrutura principal do jogo
 ├── style.css            # Estilização do jogo
@@ -31,8 +28,8 @@ Copiar código
 │   ├── axe_925140.png        # Pedra
 │   ├── files_4229806.png     # Papel
 │   └── bracelet_11063785.png # Tesoura
-
 └── README.md            # Este arquivo
+
 
 ▶️ Como Jogar
 Clone o repositório:
